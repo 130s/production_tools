@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>release_util</name>
+  <version>0.0.0</version>
+  <description>The release_util package</description>
+
+  <maintainer email="130s@2000.jukuin.keio.ac.jp">Isaac Saito</maintainer>
+  <license>Apache v2</license>
+  <!-- <url type="website">http://wiki.ros.org/release_util</url> -->
+  <author email="isaac.saito@plusonerobotics.com">Isaac Saito</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>python-vcstool</exec_depend>
+  <export />
+</package>

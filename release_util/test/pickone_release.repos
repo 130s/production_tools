@@ -1,0 +1,23 @@
+## This list collects all the repositories of all software that consists of the particular version of the product.
+## Version: 3.2.0
+- git: {local-name: intel-ros/realsense, uri: 'https://github.com/plusone-robotics/realsense.git', version: 100.223.3}
+# Because librealsense shouldn't be cloned into Catkin workspace (it has a problem in building with Catkin), hence commented out.
+# Still, this entry is kept to show the version requirement. 
+#- git: {local-name: IntelRealSense/librealsense, uri: 'https://github.com/plusone-robotics/librealsense.git', version: v2.20.0}
+- git: {local-name: plusone-robotics/bolles/bolles, uri: 'https://gitlab.com/plusone-robotics/bolles/bolles.git', version: 4.1.3}
+- git: {local-name: plusone-robotics/bolles/bolles_ai, uri: 'https://gitlab.com/plusone-robotics/bolles/bolles_ai.git', version: 3.1.2}
+- git: {local-name: plusone-robotics/bolles/bolles_gui, uri: 'https://gitlab.com/plusone-robotics/bolles/bolles_gui.git', version: 1.4.2}
+- git: {local-name: plusone-robotics/bolles/bolles_msgs, uri: 'https://gitlab.com/plusone-robotics/bolles/bolles_msgs.git', version: 2.0.1}
+- git: {local-name: plusone-robotics/bolles/bolles_tools, uri: 'https://gitlab.com/plusone-robotics/bolles/bolles_tools.git', version: 3.3.3}
+- git: {local-name: plusone-robotics/core/core_pick_msgs, uri: 'https://gitlab.com/plusone-robotics/core/core_pick_msgs.git', version: 0.7.0}
+- git: {local-name: plusone-robotics/core/core_sdk, uri: 'https://gitlab.com/plusone-robotics/core/core_sdk.git', version: 1.0.5}
+- git: {local-name: plusone-robotics/core/industrial_calibration, uri: 'https://gitlab.com/plusone-robotics/core/industrial_calibration.git', version: 1.2.5}
+- git: {local-name: plusone-robotics/kitsune/kitsune_msgs, uri: 'https://gitlab.com/plusone-robotics/kitsune/kitsune_msgs.git', version: v0.5.0}
+- git: {local-name: plusone-robotics/core/robot_api, uri: 'https://gitlab.com/plusone-robotics/core/robot_api.git', version: 0.1.6}
+- git: {local-name: plusone-robotics/core/robot_api_msgs, uri: 'https://gitlab.com/plusone-robotics/core/robot_api_msgs.git', version: 0.1.0}
+- git: {local-name: plusone-robotics/wibu_tools, uri: 'https://github.com/plusone-robotics/wibu_tools', version: 0.1.0}
+# Upstream dependency. Ideally version of these packages to be specified in the upstream (e.g. in core_sdk that depends on packml_msgs), but that's not easily done as of 2019/11.
+## POR fork of rosbridge exists because of the hack implemented to fix bolles_gui issues138
+- git: {local-name: ros-industrial/packml, uri: 'https://github.com/plusone-robotics/packml.git', version: 1000.3.1}
+- git: {local-name: plusone-robotics/packml_msgs, uri: 'https://github.com/plusone-robotics/packml_msgs.git', version: 1000.3.0}
+- git: {local-name: rosbridge/rosbridge_suite, uri: 'https://github.com/plusone-robotics/rosbridge_suite.git', version: 1000.11.4}
