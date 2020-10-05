@@ -5,5 +5,5 @@ import sys
 from release_util.changelog_vcs import Changelog_Vcs
 
 #sys.exit(Changelog_Vcs.main() or 0)
-c = Changelog_Vcs(None)
+c = Changelog_Vcs()
 c.main(None, None)

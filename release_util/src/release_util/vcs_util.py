@@ -7,7 +7,7 @@ import sys
 
 
 class VcsUtil():
-    def __init__(self, args):
+    def __init__(self):
         self.log = logging.getLogger(__name__)
 
     def get_a_changelog(self, repo_path, changelog_filename="CHANGELOG.rst"):
