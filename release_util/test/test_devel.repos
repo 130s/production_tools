@@ -1,0 +1,4 @@
+- git: {local-name: IntelRealSense/realsense-ros, uri: 'https://github.com/plusone-robotics/realsense.git', version: por_upstream_sync}
+- git: {local-name: ros-industrial/packml, uri: 'https://github.com/plusone-robotics/packml.git', version: por_development}
+- git: {local-name: plusone-robotics/packml_msgs, uri: 'https://github.com/plusone-robotics/packml_msgs.git', version: develop}
+- git: {local-name: rosbridge/rosbridge_suite, uri: 'https://github.com/plusone-robotics/rosbridge_suite.git', version: por_develop}
