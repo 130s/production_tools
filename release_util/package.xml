@@ -13,5 +13,6 @@
   <exec_depend>python-catkin-pkg</exec_depend>
   <exec_depend>python-git</exec_depend>
   <exec_depend>python-vcstool</exec_depend>
+  <test_depend>python-pytest</test_depend>
   <export />
 </package>

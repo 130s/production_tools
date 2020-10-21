@@ -3,7 +3,7 @@
 
 from subprocess import CalledProcessError
 import os
-import unittest
+import pytest
 
 from release_util.release_diff import Diffs, ReleaseDiffVcs
 
