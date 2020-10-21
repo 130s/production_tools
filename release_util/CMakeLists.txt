@@ -7,5 +7,5 @@ catkin_python_setup()
 catkin_package(
 )
 
-catkin_install_python(PROGRAMS scripts/changelog_vcs
+catkin_install_python(PROGRAMS bin/changelog_vcs
                       DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
